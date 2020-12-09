@@ -1,0 +1,56 @@
+.Navbar {
+    margin: 0;
+    padding: 0.5em 1em 0 1em;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.userAddressArea {
+    padding: 0;
+}
+
+.user {
+    padding-left: 0.7em;
+    height: 1.5em;
+}
+
+.logo {
+    font-family: 'Baloo Bhai 2', cursive;
+    padding-top: 0.2em;
+    color: #065C6F;
+    z-index: 10;
+}
+
+.mainLogo {
+    padding-left: 9em;
+}
+
+.userAddress {
+    font-size: 0.7em;
+    color: #666666;
+    padding-top: 0.5em;
+    
+}
+
+#underLine {
+        position: relative;
+        width: 130px;
+        height: 5px;
+        left: -115px;
+        top: 18px;
+        z-index: 1;
+
+        background: #FFBB91;
+        border-radius: 10px;
+}
+
+.ham {
+    cursor: pointer;
+    height: 2em;
+}
